@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#estrutura{
+    background-color: #FFDEAD; /*cor de fundo*/
+    width: 100%; /*largura*/
+    margin-left: auto;/*margem a esquerda*/
+    margin-right: auto;/*margim a direita*/
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.card0{
+    margin: 0px;
+    background-color: rgb(238, 235, 227);
+    width: 1500px;
+    height: 60px;
+    text-align: center;
+}
+
+.card{
+    margin: 10px;
+    margin-top: 70px;
+    background-color: rgb(238, 235, 227);
+    color: #202020;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 15px;
+}
+.card>h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>p{
+    font-size: 17px;
+    padding: 15px 10px;
+}
+
+.card>img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.menu-button {
+    border-radius: 10px; /* Escolha o valor que desejar para o arredondamento */
+}
+#estrutura #menu ul{
+    padding: 0px; /* espaçamento */    
+}
+#estrutura #menu li{
+    /* retira as marcas do marcador*/
+    list-style: none;
+    /* alinhar links na horizontal*/
+    display: inline-flex;
+    /* alinha os itens horizontalmente */
+    justify-content: center;
+    margin-left: 135px;
+    width: 180px;
+    text-align: center;
+    padding: 0px 0px;
+    padding-top: 10px;
+
+}
+#estrutura #menu a{
+    /* a href*/
+    font-family: Arial;
+    font-size: 10pt;
+    text-decoration: none;
+    color: rgb(253, 250, 250);
+    background-color: #ab6164;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+#estrutura #menu a:hover{ /*passar o mouse sobre o elemento*/
+    background-color: #7e424e;
+    color: white;
+}
+
+#estrutura #menu a.atual{ /* item de menu selecionado*/
+    background-color: #61313a;
+}
+
+#rodape {
+    padding: 0px; font-family: arial; background-color: #712B31;
+    margin-top: 50px;
+    color: white; height: 70px; bottom: 0;
+    width: 100%; text-align: center;
+}
