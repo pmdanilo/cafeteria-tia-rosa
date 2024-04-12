@@ -74,7 +74,7 @@ p{  text-align: justify;
 }
 
 .card {
-    margin:9vw;
+    margin:13vw;
     margin-top: 2vw;
     text-align: justify;
 }
@@ -94,7 +94,6 @@ p{  text-align: justify;
 .textohome {
     
     color: #333;
-    font-size: 1em;
     line-height: 1.6;
 }
 
@@ -115,9 +114,18 @@ p{  text-align: justify;
 }
 
 #estrutura #conteudo .imghome img{
-    width: 400px;
-    height: 350px;
-    margin: 10px;
+    width: 72vw; /* Ajuste este valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    #estrutura #conteudo .imghome img{
+        width: 80vw; /* Ajuste este valor conforme necessário */
+    }
 }
 
 #estrutura #conteudo .imghome{ text-align: center;}
