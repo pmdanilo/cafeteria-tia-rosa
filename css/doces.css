@@ -5,7 +5,7 @@
 }
 
 #estrutura{
-    background-color: #FFDEAD; /*cor de fundo*/
+    background-color: rgb(253, 227, 206); /*cor de fundo*/
     width: 100%; /*largura*/
     margin-left: auto;/*margem a esquerda*/
     margin-right: auto;/*margim a direita*/

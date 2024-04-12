@@ -4,7 +4,7 @@
 }
 
 #estrutura{
-    background-color: #F8EDD5; /*cor de fundo*/
+    background-color: rgb(253, 227, 206); /*cor de fundo*/
     width: 100%; /*largura*/
     margin-left: auto;/*margem a esquerda*/
     margin-right: auto;/*margim a direita*/
@@ -102,13 +102,13 @@ p{  text-align: justify; /* parágrafo*/
 /*formatação para o texto*/
 #estrutura #conteudo .textohome{
     font-family: 'Times New Roman';
-    font-size: 16pt;
-    text-align: center;
-    text-align: justify;
-    max-width: 1250px; /* Ajuste este valor conforme necessário */
+    font-size:1em;
+    max-width: 85%;
+    min-width: 300px;
     margin: 0 auto; /* Isso centraliza o bloco de texto se ele for menor que a largura da página */
 
 }
+
 
 #rodape {
     padding: 0px; font-family: arial; background-color: #712B31;
