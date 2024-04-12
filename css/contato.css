@@ -4,44 +4,53 @@
 }
 
 #estrutura{
-    background-color: rgb(253, 227, 206); /*cor de fundo*/
-    width: 100%; /*largura*/
-    margin-left: auto;/*margem a esquerda*/
-    margin-right: auto;/*margim a direita*/
+    background-color: rgb(253, 227, 206); 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* criando uma classe no css, chamada título*/
+
 .titulo{
     margin-top: 450px;
 }
-p{  text-align: justify; /* parágrafo*/
+
+p{  text-align: justify; 
     margin-right: 20px;
-    text-indent: 20px; /* recuo de parágrafo*/
+    text-indent: 20px; 
     font-family: Century Gothic;
     font-size: 14pt;
 }
 
 .menu-button {
-    border-radius: 10px; /* Escolha o valor que desejar para o arredondamento */
+    border-radius: 10px; 
 }
 
 #estrutura #menu ul{
-    padding: 0px; /* espaçamento */    
-}
-#estrutura #menu li{
-    /* retira as marcas do marcador*/
-    list-style: none;
-    /* alinhar links na horizontal*/
-    display: inline-flex;
-    /* alinha os itens horizontalmente */
+    display: flex;
     justify-content: center;
-    margin-left: 135px;
+    padding: 0px;
+    flex-wrap: nowrap; 
+}
+
+#estrutura #menu li{
+    background-size: contain;
+    list-style: none;
     width: 180px;
     text-align: center;
     padding: 0px 0px;
     padding-top: 10px;
-
+    margin: 50px;
 }
+
+
+@media (max-width: 600px) {
+    #estrutura #menu li{
+        width: 100%; 
+        margin: 10px 0; 
+    }
+}
+
 #estrutura #menu a{
     /* a href*/
     font-family: Arial;
@@ -54,41 +63,43 @@ p{  text-align: justify; /* parágrafo*/
     display: inline-block;
     padding: 10px 0px;
 }
-#estrutura #menu a:hover{ /*passar o mouse sobre o elemento*/
+
+#estrutura #menu a:hover{
     background-color: #7e424e;
     color: white;
 }
-#estrutura #menu a.atual{ /* item de menu selecionado*/
+
+#estrutura #menu a.atual{ 
     background-color: #61313a;
 }
+
 #estrutura #conteudo .header .logo{
     display: flex;
     align-items: center;
     width: 200px;
 
 }
-#estrutura #conteudo h2{
-    font-family: Arial;
-    font-size: 14pt;
-    padding: 10px;
-}
-/*formatação para o texto*/
+
+
 #estrutura #conteudo .textocontato{
     font-family: 'Times New Roman';
     font-size: 16pt;
-    line-height: 14pt;
+    line-height: 18pt;
     padding-left: 20px;
 }
+
 #rodape {
     padding: 0px; font-family: arial; background-color: #712B31;
     color: white; height: 50px; bottom: 0;
     width: 100%; text-align: center;
 }
+
 #estrutura #conteudo .imghome img{
     width: 300px;
     height: 250px;
     margin: 10px;
 }
+
 #estrutura #conteudo .imghome{ text-align: center;}
 
 /*forçando o rodape para baixo*/
