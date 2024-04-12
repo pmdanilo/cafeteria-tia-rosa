@@ -57,33 +57,39 @@ p{  text-align: justify; /* parágrafo*/
     padding: 10px 0px;
 }
 
-#estrutura #menu a:hover{ /*passar o mouse sobre o elemento*/
+#estrutura #menu a:hover{
     background-color: #7e424e;
     color: white;
 }
 
-#estrutura #menu a.atual{ /* item de menu selecionado*/
+#estrutura #menu a.atual{ 
     background-color: #61313a;
 }
 
 .card {
+    
     /* Adicione margem ao redor do card */
-    margin:240px;
-    margin-top: 50px;
+    margin:9vw;
+    margin-top: 2vw;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        margin: 2vw;
+    }
 }
 
 .card-body {
-    /* Adicione padding dentro do card */
-    background-color: rgb(247, 245, 237);
+
+    background-color: rgb(253, 242, 231);
     padding: 0px;
 }
 
 .textohome {
-    /* Altere a cor do texto */
+    
     color: #333;
-    /* Altere o tamanho da fonte */
-    font-size: 16px;
-    /* Altere a linha de altura */
+    font-size: 1em;
     line-height: 1.6;
 }
 
